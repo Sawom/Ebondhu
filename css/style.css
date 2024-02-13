@@ -9,3 +9,8 @@
 .bodyBackground{
     background-color: #f3f4f5;
 }
+
+.radious{
+    border: none;
+    border-radius: 20px !important;
+}
