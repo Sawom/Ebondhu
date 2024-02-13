@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body>
+<body class="bodyBackground">
         <!-- header -->
         <nav  class="container mb-3 navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -55,35 +55,32 @@
         <!-- header end -->
 
         <!-- carousel -->
-        <div id="carouselExampleFade" class="mb-5 container carousel slide carousel-fade">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+        <div id="carouselExampleSlidesOnly" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height: 500px;">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <img src="imgs/img1.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/img2.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/img3.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/img4.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!-- carousel end -->
-        <div class="container">
-            notice
         </div>
 
-    <script src="js/bootstrap.bundle.min.js" ></script>
+        <!-- carousel end -->
+        <div class="container">
+            <marquee behavior="" direction="left" class="text-success">
+                Welcome to ebondhu family!
+            </marquee>
+        </div>
+
+    <script src="js/bootstrap.bundle.min.js" >
+
+    </script>
 </body>
 </html>
