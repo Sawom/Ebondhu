@@ -1,161 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body class="bodyBackground">
-        <!-- header -->
-        <nav  class="container mb-3 navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="imgs/logo.png" style="width: 90px;" alt=""> e bondhu </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto justify-content-md-center">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link active" href="#">Features</a>
-                    <a class="nav-link active" href="#">Pricing</a>
-                </div>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body class="bodyBackground">
+    <!-- header -->
+    <nav class="container mb-3 navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo.png" style="width: 90px" alt="" /> e bondhu
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto justify-content-md-center">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link active" href="#">Features</a>
+            <a class="nav-link active" href="#">Pricing</a>
+          </div>
 
-                <div class="">
-                    <button type="button" class="btn btn-outline-success my-3 mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
-                    <a href="register.html"><button type="button" class="btn btn-success mx-2">Register</button></a> 
-                </div>
+          <div class="">
+            <button
+              type="button"
+              class="btn btn-outline-success my-3 mx-2"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Login
+            </button>
+            <a href="register.html"
+              ><button type="button" class="btn btn-success mx-2">
+                Register
+              </button></a
+            >
+          </div>
 
-                <!-- login modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Login here</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="d-grid gap-2">
-                                <button type="button" class="btn btn-outline-success rounded-pill" > Login </button>
-                                <p class="center-div"> or </p>
-                                <button type="button" class="btn btn-outline-success rounded-pill"  > Login </button>
-                                <p class="center-div"> or </p>
-                                <button type="button" class="btn btn-outline-success rounded-pill"  > Login </button>
-                            </div>
-                            
-                        </div>
-                        </div>
-                    </div>
+          <!-- login modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                    Login here
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
                 </div>
-
+                <div class="modal-body">
+                  <div class="d-grid gap-2">
+                    <button
+                      type="button"
+                      class="btn btn-outline-success rounded-pill"
+                    >
+                      Login
+                    </button>
+                    <p class="center-div">or</p>
+                    <button
+                      type="button"
+                      class="btn btn-outline-success rounded-pill"
+                    >
+                      Login
+                    </button>
+                    <p class="center-div">or</p>
+                    <button
+                      type="button"
+                      class="btn btn-outline-success rounded-pill"
+                    >
+                      Login
+                    </button>
+                  </div>
                 </div>
+              </div>
             </div>
-        </nav>
-        <!-- header end -->
-
-        <!-- carousel -->
-        <div id="carouselExampleSlidesOnly" class="container carousel slide mb-4" data-bs-ride="carousel">
-            <div class="carousel-inner" style="height: 500px;">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="imgs/img1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="imgs/img2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="imgs/img3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="imgs/img4.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+    </nav>
+    <!-- header end -->
 
-        <!-- carousel end -->
-        <div class="container">
-            <marquee behavior="" direction="left" class="text-success">
-                Welcome to ebondhu family!
-            </marquee>
+    <!-- carousel -->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="container carousel slide mb-4"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" style="height: 500px">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="imgs/img1.jpg" class="d-block w-100" alt="..." />
         </div>
-
-        <!-- at a glance -->
-        <div class="row row-cols-2 row-cols-md-4 g-3 container mx-auto  mb-3 mt-3" >
-            <!-- 1 -->
-            <div class="col">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">mot desher sonkha</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 2 -->
-            <div class="col ">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">mot branch er sonkha</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 3 -->
-            <div class="col ">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">mot sheba grohonkarir sonkha</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 4 -->
-            <div class="col">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">employee sonkha</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 5 -->
-            <div class="col">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">user saonkha:</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 6 -->
-            <div class="col">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h4 class="card-title">10</h4>
-                    <h6 class="card-text">mot abedon er sonkha</h6>
-                </div>
-                </div>
-            </div>
-
-            <!-- 7 -->
-            <div class="col">
-                <div class="card h-100 radious">
-                <div class="card-body center-div">
-                    <h5 class="card-title">10</h5>
-                    <h6 class="card-text">nishpotti sonkha</h6>
-                </div>
-                </div>
-            </div>
-
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="imgs/img2.jpg" class="d-block w-100" alt="..." />
         </div>
-        <!-- at a glance -->
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="imgs/img3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="imgs/img4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
 
-    <script src="js/bootstrap.bundle.min.js" >
+    <!-- carousel end -->
+    <div class="container">
+      <marquee behavior="" direction="left" class="text-success">
+        Welcome to ebondhu family!
+      </marquee>
+    </div>
 
-    </script>
-</body>
+    <!-- at a glance -->
+    <div class="row row-cols-2 row-cols-md-4 g-3 container mx-auto mb-3 mt-3">
+      <!-- 1 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">মোট দেশের সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">মোট ব্রাঞ্চের সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">মোট সেবা গ্রহণকারীর সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">কর্মীর সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">ব্যবহারকারীর সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h4 class="card-title">১০</h4>
+            <h6 class="card-text">মোট আবেদনের সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="col">
+        <div class="card h-100 radious">
+          <div class="card-body center-div">
+            <h5 class="card-title">১০</h5>
+            <h6 class="card-text">নিস্পত্তির সংখ্যা</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- at a glance end-->
+
+    <!-- category -->
+    <div class="row g-3 container mx-auto row-cols-2 row-cols-md-3 row-cols-lg-4 mt-4 mb-4">
+        <!-- 1 -->
+        <div class="col" >
+            <a href=""> <button type="button" class="btn btn-outline-success rounded-pill"> এপ ডেভেলপমেন্ট  </button> </a>
+        </div>
+        <!-- 2 -->
+        <div class="col" >
+            <a href=""> <button type="button" class="btn btn-outline-success rounded-pill"> ওয়েব ডেভেলপমেন্ট  </button> </a>
+        </div>
+        <!-- 3 -->
+        <div class="col" >
+            <a href=""> <button type="button" class="btn btn-outline-success rounded-pill"> UI/UX ডিজাইন </button> </a>
+        </div>
+        <!-- 4 -->
+        <div class="col" >
+            <a href=""> <button type="button" class="btn btn-outline-success rounded-pill"> ব্যবসায়ীক পরামর্শ  </button> </a>
+        </div>
+    </div>
+    <!-- category end-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
