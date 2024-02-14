@@ -18,55 +18,64 @@
             </div>
         </nav>
 
-        <!-- register form -->
-        <div class="container back position-absolute top-50 start-50 translate-middle ">
-            <img src="imgs/logo.png" style="width: 100px;" class="mx-auto d-block" alt="">
-            <!-- 1 -->
-            
+        <!-- register form -->           
+        <div class="position-absolute top-50 start-50 translate-middle">
+        
+            <div class="back p-5" style="border-radius: 20px;">
+                <img src="imgs/logo.png" style="width: 100px;" class="mx-auto d-block" alt="">
+                <p class="center-div">নতুন একাউন্ট তৈরি করুন</p>
+                <form >
 
-
-            <!-- 2 -->
-            <form class="" action="">
-                <div class="form-group mb-3 mx-auto">
-                    <label for="contactType">Select Contact Type:</label>
-                    <!-- radio button -->
-                    <div class="d-flex mb-2">
-                        <div class="form-check mx-2">
-                            <input class="form-check-input" type="radio" name="contactType" id="mobileRadio" value="mobile" checked>
-                            <label class="form-check-label" for="mobileRadio">Mobile</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="contactType" id="emailRadio" value="email">
-                            <label class="form-check-label" for="emailRadio">Email</label>
-                        </div>
-                    </div>
-
-                    <!-- email or phone -->
                     <div class="form-group mb-3">
-                        <label for="contactInput">Contact Information:</label>
-                        <div id="mobileInput"  class="mb-3" >
-                            <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Enter mobile number">
+                        <label for="contactType">Select Contact Type:</label>
+                        <!-- radio button -->
+                        <div class="d-flex mb-2">
+                            <!-- mobile -->
+                            <div class="form-check mx-2">
+                                <input class="form-check-input" type="radio" name="contactType" id="mobileRadio" value="mobile" checked>
+                                <label class="form-check-label" for="mobileRadio">Mobile</label>
+                            </div>
+                            <!-- email -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="contactType" id="emailRadio" value="email">
+                                <label class="form-check-label" for="emailRadio">Email</label>
+                            </div>
                         </div>
-                        <div id="emailInput" style="display:none;"  class="mb-3" >
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
-                        </div>
-                    </div>
-                    
-                </div>
 
-                <div class="mb-3 w-50 mx-auto">
-                    <label for="exampleFormControlInput1" class="form-label">Your Name:</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name">
+                        <!-- email or phone -->
+                        <div class="form-group mb-3">
+                            <label for="contactInput">Contact Information:</label>
+                            <div id="mobileInput"  class="mb-3" >
+                                <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Enter mobile number">
+                            </div>
+                            <div id="emailInput" style="display:none;"  class="mb-3" >
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Your Name:</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name">
+                        <!-- submit button -->
+                        <div class="d-grid gap-2 mb-3">
+                            <button type="submit" class="btn btn-success mt-3">রেজিষ্টেশন করুন</button>
+                        </div>
+                        
+                        <span class="d-flex "> <p class="mx-2">আগেই একাউন্ট করেছেন? </p> <a href="login.html">লগইন করুন</a> </span> 
+                        <hr>
+                        <span> <a class="text-success mx-3">প্রশাসনিক লগইন</a> | <a class="text-success mx-3">সহায়ক লগইন</a> </span> 
+                    </div>
+
                     <!-- submit button -->
                     <div class="d-grid gap-2 mb-3">
-                        <button type="submit" class="btn btn-success mt-3">রেজিষ্টেশন করুন</button>
+                        <button type="submit" class="btn btn-success mt-3">submit করুন</button>
                     </div>
                     
-                    <span class="d-flex "> <p class="mx-2">আগেই একাউন্ট করেছেন? </p> <a href="login.html">লগইন করুন</a> </span> 
-                    <hr>
-                    <span> <a class="text-success mx-3">প্রশাসনিক লগইন</a> | <a class="text-success mx-3">সহায়ক লগইন</a> </span> 
-                </div>
-            </form>
+                </form>
+            </div>
+
         </div>
         
 
