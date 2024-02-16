@@ -59,6 +59,9 @@
   width: 100%;
 }
 
+.middle{
+    margin: auto;
+}
 
 .formWidth{
     max-width: 400px ;
