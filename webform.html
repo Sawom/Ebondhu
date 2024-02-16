@@ -1,90 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web form</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-</head>
-<body class="bodyBackground" >
-    <div class="container mx-auto" >
-        <form>
-            <div class="row g-3">
+  </head>
+  <body class="bodyBackground">
 
-                <!-- name -->
-                <div class=" col-md-4">
-                    <label for="inputEmail4">name</label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
+    <br><br>
+    <div class="container mx-auto back p-4">
+        <h3 class="text-center">sotorkovabe form ti puron korun</h3>
+        <br>
+      <form>
+        <div class="row g-3">
+          <!-- name -->
+          <div class="col-md-4">
+            <label for="inputEmail4">name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputEmail4"
+              placeholder="Email"
+            />
+          </div>
 
-                <!-- phone -->
-                <div class=" col-md-4">
-                    <label for="inputPassword4">Phone</label>
-                    <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
-                </div>
+          <!-- phone -->
+          <div class="col-md-4">
+            <label for="inputPassword4">Phone</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputPassword4"
+              placeholder="Password"
+            />
+          </div>
 
-                <!-- website type -->
-                <div class="form-group col-md-4">
-                    <label for="inputState">type</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>select</option>
-                        <option>ecomarc</option>
-                        <option> blog </option>
-                    </select>
-                </div>
+          <!-- website type -->
+          <div class="form-group col-md-4">
+            <label for="inputState">type</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>ecomarc</option>
+              <option>blog</option>
+            </select>
+          </div>
+        </div>
 
+        <div class="row g-3 mt-1">
+          <!-- division -->
+          <div class="form-group col-md-4">
+            <label for="inputState">bivag</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- jela -->
+          <div class="form-group col-md-4">
+            <label for="inputState">jela</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- upojela -->
+          <div class="form-group col-md-4">
+            <label for="inputState">upojela</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- union -->
+          <div class="form-group col-md-4">
+            <label for="inputState">union</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- word -->
+          <div class="form-group col-md-4">
+            <label for="inputState">word</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- village -->
+          <div class="form-group col-md-4">
+            <label for="inputState">village</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- thana -->
+          <div class="form-group col-md-4">
+            <label for="inputState">thana</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- kotodin er moddhe lagbe -->
+          <div class="form-group col-md-4">
+            <label for="inputState">duration</label>
+            <select id="inputState" class="form-control">
+              <option selected>select</option>
+              <option>dhaka</option>
+            </select>
+          </div>
+
+          <!-- nid -->
+
+          <div class="col-md-4">
+            <label for="inputEmail4">name</label>
+            <input type="file" class="form-control" id="" placeholder="nid" />
+          </div>
+        </div>
+
+        <!-- confirm button -->
+        <button
+          type="button"
+          class="btn btn-success mt-3"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          submit
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                Congratulations! 
+                <br><br>
+                <img src="imgs/tik.gif" class="w-50 position-relative top-0 start-50 translate-middle-x" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
-
-
-            <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-
-            <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-
-            <div class="form-row">
-
-                <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-
-                <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                </div>
-
-            </div>
-
-            <div class="form-group">
-                <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-                </div>
-            </div>
-            
-            <button type="submit" class="btn btn-primary">Sign in</button>
-        </form>
+          </div>
+        </div>
+      </form>
     </div>
 
-
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
