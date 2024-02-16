@@ -8,49 +8,36 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
   <body class="bodyBackground" >
-    <!-- header -->
-    <nav class="container mb-3 navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="imgs/logo.png" style="width: 90px" alt="" /> e bondhu
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mx-auto justify-content-md-center">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              > হোম </a>
-            <a class="nav-link active" href="#"> আমাদের সার্ভিস সমূহ </a>
-            <a class="nav-link active" href="#"> আমাদের সম্পর্কে </a>
-          </div>
 
+    <section class="back " >
+      <!-- header 1 -->
+      <nav class="navbar container">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.png" style="width: 100px" alt="" />
+          </a>
+
+          <!-- login reg button -->
           <div class="">
-            <button
-              type="button"
-              class="btn btn-outline-success my-3 mx-2"
-              data-bs-toggle="modal"
-              data-bs-target="#staticBackdrop"
-            >
-              Login
-            </button>
-            <a href="register.html"
-              ><button type="button" class="btn btn-success mx-2">
-                Register
-              </button></a
-            >
+              <button
+                type="button"
+                class="btn btn-outline-success my-3 mx-2"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Login
+              </button>
+              <a href="register.html"
+                ><button type="button" class="btn btn-success mx-2">
+                  Register
+                </button></a
+              >
           </div>
 
-          <!-- login modal -->
-          <div
+        </div>
+
+        <!-- login modal -->
+        <div
             class="modal fade"
             id="staticBackdrop"
             data-bs-backdrop="static"
@@ -58,50 +45,81 @@
             tabindex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                    Login here
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <div class="d-grid gap-2">
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                      Login here
+                    </h1>
                     <button
                       type="button"
-                      class="btn btn-outline-success rounded-pill"
-                    >
-                      Login
-                    </button>
-                    <p class="center-div">or</p>
-                    <button
-                      type="button"
-                      class="btn btn-outline-success rounded-pill"
-                    >
-                      Login
-                    </button>
-                    <p class="center-div">or</p>
-                    <button
-                      type="button"
-                      class="btn btn-outline-success rounded-pill"
-                    >
-                      Login
-                    </button>
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="d-grid gap-2">
+                      <button
+                        type="button"
+                        class="btn btn-outline-success rounded-pill"
+                      >
+                        Login
+                      </button>
+                      <p class="center-div">or</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-success rounded-pill"
+                      >
+                        Login
+                      </button>
+                      <p class="center-div">or</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-success rounded-pill"
+                      >
+                        Login
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
+        </div>
+
+
+      </nav>
+
+      <!-- header 2-->
+      <nav class="container navbar navbar-expand-lg">
+        <div class="container-fluid">
+          
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            
+            <div class="navbar-nav mx-auto justify-content-md-center">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                > হোম </a>
+              <a class="nav-link active" href="#"> আমাদের সার্ভিস সমূহ </a>
+              <a class="nav-link active" href="#"> আমাদের সম্পর্কে </a>
             </div>
+
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+    </section>
+    
     <!-- header end -->
 
     <!-- carousel -->
