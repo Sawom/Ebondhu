@@ -9,7 +9,7 @@
 </head>
 <body  class="bodyBackground" >
         <!-- header -->
-        <nav  class="container mb-3 navbar navbar-expand-lg bg-body-tertiary">
+        <nav  class="container mb-5 navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"> <img src="imgs/logo.png" style="width: 90px;" alt=""> হোম </a>
                 
@@ -18,10 +18,11 @@
             </div>
         </nav>
 
+        <br><br>
         <!-- register form -->           
-        <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="container mx-auto mb-5">
         
-            <div class="back p-5" style="border-radius: 20px;">
+            <div class="back p-4 formWidth " style="border-radius: 20px;">
                 <img src="imgs/logo.png" style="width: 100px;" class="mx-auto d-block" alt="">
                 <p class="center-div">নতুন একাউন্ট তৈরি করুন</p>
                 <form >
@@ -29,7 +30,7 @@
                     <div class="form-group mb-3">
                         <label for="contactType">একাউন্টে লগইন করার মাধ্যম:</label>
                         <!-- radio button -->
-                        <div class="d-flex mb-2">
+                        <div class="d-flex mb-2 ">
                             <!-- mobile -->
                             <div class="form-check mx-2">
                                 <input class="form-check-input" type="radio" name="contactType" id="mobileRadio" value="mobile" checked>
@@ -46,7 +47,7 @@
                         <div class="form-group mb-3">
                             <label for="contactInput">যোগাযোগের তথ্য:</label>
                             <div id="mobileInput"  class="mb-3" >
-                                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="আপনার মোবাইল নাম্বার ">
+                                <input type="text" class="form-control " id="mobile" name="mobile" placeholder="আপনার মোবাইল নাম্বার ">
                             </div>
                             <div id="emailInput" style="display:none;"  class="mb-3" >
                                 <input type="email" class="form-control" id="email" name="email" placeholder="আপনার ইমেইল">
@@ -72,36 +73,6 @@
             </div>
 
         </div>
-        
-        <br>
-        <!-- footer -->
-        <section class="">
-            <footer class="  position-absolute bottom-0 start-50 translate-middle-x">
-            <br>
-            <div class="">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-3">
-                <!-- 1 -->
-                <div class="col">
-                    <p>পরিকল্পনা ও বাস্তবায়নে</p>
-                    <img src="imgs/logo.png" style="width: 100px;" alt="">
-                </div>
-                <!-- 2 -->
-                <div class="col">
-                    <p>কপিরাইট © ২০২৪ সর্বস্বত্ব সংরক্ষিত</p>
-                </div>
-                <!-- 3 -->
-                <div class="col">
-                    <p>কারিগরি সহযোগিতায়</p>
-                    <img src="imgs/logo.png" style="width: 100px;" alt="">
-                </div>
-
-                </div>
-            </div>
-
-            </footer>
-        </section>
-
-
 
     <script src="js/script.js" ></script>
     <script src="js/bootstrap.bundle.min.js" ></script>
