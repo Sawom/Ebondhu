@@ -126,8 +126,17 @@
         <div class="row  container mx-auto g-2">
             <!-- 1st column -->
             <div class="col-12 col-lg-3 col-md-3 back mx-2 p-3" >
-                <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle img-fluid " style="width: 120px;"
-                alt="Avatar" /> 
+
+                <!-- image -->
+
+
+                <div class="avatar-container">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" alt="Avatar" class="avatar-img">
+                    <input type="file" class="avatar-input" id="avatarInput" onchange="loadImage(event)">
+                
+                    <i class="fa fa-camera camera-icon" onclick="document.getElementById('avatarInput').click()"></i>
+                </div>
+                 
             </div>
 
             <!-- 2nd column -->
@@ -446,6 +455,7 @@
         </div>
     </section>
 
+    <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

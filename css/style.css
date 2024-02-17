@@ -67,3 +67,39 @@
     max-width: 400px ;
     margin: auto;
 }
+
+/*  */
+.avatar-container {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .avatar-input {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 30px;
+      height: 30px;
+      opacity: 10;
+      cursor: pointer;
+    }
+
+    .camera-icon {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      color: #000;
+    }

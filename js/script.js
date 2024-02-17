@@ -13,4 +13,17 @@ document.addEventListener('DOMContentLoaded', function () {
       mobileInput.style.display = 'none';
       emailInput.style.display = 'block';
     });
-  });
+});
+
+
+function loadImage(event) {
+    const input = event.target;
+    const reader = new FileReader();
+
+    reader.onload = function(){
+      const avatarImg = document.querySelector('.avatar-img');
+      avatarImg.src = reader.result;
+    };
+
+    reader.readAsDataURL(input.files[0]);
+}
