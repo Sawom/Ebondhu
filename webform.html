@@ -9,30 +9,44 @@
   </head>
   <body class="bodyBackground">
 
-    <!-- header -->
+    <!-- header section -->
     <section class="back" >
       <!-- header 1 -->
-      <nav class="navbar container mx-auto">
+      <nav class="navbar container mx-auto flex">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imgs/logo.png" style="width: 100px" alt="" />
+            <img src="imgs/logo.png" class="img-fluid" style="width: 100px" alt="" />
           </a>
 
+          <!-- language button -->
+          <section class="d-flex ">
+
+            <p>বাংলা</p>
+            <div class="form-check form-switch mx-1">
+                
+                <input class="form-check-input bg-success" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                
+            </div>
+            <p> English</p>
+            
+          </section>
+          
           <!-- login reg button -->
           <div class="">
+
               <button
                 type="button"
-                class="btn btn-outline-success my-3 mx-2"
+                class="btn btn-outline-success btn-sm"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
-              >
-                Login
-              </button>
+              > Login </button>
+
               <a href="register.html"
-                ><button type="button" class="btn btn-success mx-2">
+                ><button type="button" class="btn btn-success btn-sm">
                   Register
-                </button></a
-              >
+                </button></a>
+
           </div>
 
         </div>
@@ -49,6 +63,7 @@
             >
               <div class="modal-dialog">
                 <div class="modal-content">
+
                   <div class="modal-header">
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">
                       Login here
@@ -60,6 +75,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
+
                   <div class="modal-body">
                     <div class="d-grid gap-2">
                       <button
@@ -120,6 +136,8 @@
       </nav>
 
     </section>
+    
+    <!-- header end -->
 
     <!-- form application -->
     <br><br>
@@ -153,7 +171,7 @@
           <!-- website type -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">ওয়েবসাইটের ধরন</label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected>নির্বাচন করুন</option>
               <option> ই-কমার্স ওয়েবসাইট </option>
               <option> ব্লগ ওয়েবসাইট </option>
@@ -165,7 +183,7 @@
           <!-- division -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState"> বিভাগ </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected> নির্বাচন করুন </option>
               <option> ঢাকা </option>
             </select>
@@ -174,7 +192,7 @@
           <!-- jela -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState"> জেলা  </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected> নির্বাচন করুন </option>
               <option> ঢাকা </option>
             </select>
@@ -183,7 +201,7 @@
           <!-- upojela -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">উপজেলা </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected> নির্বাচন করুন </option>
               <option> ঢাকা </option>
             </select>
@@ -192,7 +210,7 @@
           <!-- union -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState"> ইউনিয়ন  </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected> নির্বাচন করুন  </option>
               <option>ঢাকা</option>
             </select>
@@ -201,7 +219,7 @@
           <!-- word -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">ওয়ার্ড </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected> নির্বাচন করুন </option>
               <option>ঢাকা </option>
             </select>
@@ -210,7 +228,7 @@
           <!-- village -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">গ্রাম </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected>নির্বাচন করুন</option>
               <option>ঢাকা </option>
             </select>
@@ -219,7 +237,7 @@
           <!-- thana -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">থানা</label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected>নির্বাচন করুন</option>
               <option>ঢাকা</option>
             </select>
@@ -228,7 +246,7 @@
           <!-- kotodin er moddhe lagbe -->
           <div class="form-group col-md-4 col-lg-4">
             <label for="inputState">কতদিনের মধ্যে </label>
-            <select id="inputState" class="form-control">
+            <select id="inputState" class="form-select">
               <option selected>নির্বাচন করুন</option>
               <option>১ মাস </option>
               <option>২ মাস </option>

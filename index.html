@@ -12,27 +12,41 @@
     <!-- header section -->
     <section class="back" >
       <!-- header 1 -->
-      <nav class="navbar container mx-auto">
+      <nav class="navbar container mx-auto flex">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imgs/logo.png" style="width: 100px" alt="" />
+            <img src="imgs/logo.png" class="img-fluid" style="width: 100px" alt="" />
           </a>
 
+          <!-- language button -->
+          <section class="d-flex ">
+
+            <p>বাংলা</p>
+            <div class="form-check form-switch mx-1">
+                
+                <input class="form-check-input bg-success" type="checkbox" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                
+            </div>
+            <p> English</p>
+            
+          </section>
+          
           <!-- login reg button -->
           <div class="">
+
               <button
                 type="button"
-                class="btn btn-outline-success my-3 mx-2"
+                class="btn btn-outline-success btn-sm"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
-              >
-                Login
-              </button>
+              > Login </button>
+
               <a href="register.html"
-                ><button type="button" class="btn btn-success mx-2">
+                ><button type="button" class="btn btn-success btn-sm">
                   Register
-                </button></a
-              >
+                </button></a>
+
           </div>
 
         </div>
@@ -49,6 +63,7 @@
             >
               <div class="modal-dialog">
                 <div class="modal-content">
+
                   <div class="modal-header">
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">
                       Login here
@@ -60,6 +75,7 @@
                       aria-label="Close"
                     ></button>
                   </div>
+
                   <div class="modal-body">
                     <div class="d-grid gap-2">
                       <button
@@ -120,7 +136,6 @@
       </nav>
 
     </section>
-    
     <!-- header end -->
 
     <!-- carousel -->
@@ -250,7 +265,7 @@
             <a href="form.html"> <button type="button" class="btn btn-outline-success rounded-pill"> ব্যবসায়ীক পরামর্শ  </button> </a>
         </div>
     </div>
-    <!-- category end-->
+    <!-- category end -->
 
     <!-- options -->
     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 mb-4 container mx-auto">
