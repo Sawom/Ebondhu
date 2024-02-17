@@ -146,27 +146,111 @@
                 
                 <h6>ভেরিফিকেশন</h6>
                 <br>
-                <span class="d-flex ">
+                    
+                <p class="d-flex" >
                     <img src="imgs/icons/id.svg" style="width: 15px;" alt="">
-                    <p class="center-div mx-2" > জাতীয় পরিচয়পত্র</p>
+                    <span class="mx-3">জাতীয় পরিচয়পত্র</span> 
                     <img src="imgs/icons/tik.svg" style="width: 15px;" ></img>
-                </span>
+                </p>
                 
                 <h6>প্রোফাইল ডাটা যাচাই</h6>
                 <br>
-                <span class="d-flex ">
-                    <img src="imgs/icons/id.svg" style="width: 15px;" alt="">
-                    <p class=" mx-2" >জন্ম নিবন্ধন নম্বর</p>
+                <div class="">
                     
+                    <p class="d-flex" > 
+                        <img src="imgs/icons/id.svg" style="width: 15px;" alt="">
+                        <span class="mx-3">জন্ম নিবন্ধন নম্বর</span> 
+
+                         <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            যাচাই করুন
+                        </button>
+                    </p>
                     
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">জন্ম নিবন্ধনের তথ্য</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-3">
+                            
+                            <!-- 1 name -->
+                            <div class="">
+                                <label for="inputName4"> নাম</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="inputName4"
+                                placeholder="নাম"
+                                />
+                            </div>
+                            <br>
+
+                            <!-- 2 dob -->
+                            <div class="">
+                                <label for="inputName4"> জন্ম তারিখ</label>
+                                <input
+                                type="date"
+                                class="form-control"
+                                id="inputName4"
+                                placeholder="জন্ম তারিখ"
+                                />
+                            </div>
+                            <br>
+
+                            <!-- 3 birth certificate no-->
+                            <div class="">
+                                <label for="inputName4"> জন্ম নিবন্ধন নম্বর</label>
+                                <input
+                                type="text"
+                                class="form-control"
+                                id="inputName4"
+                                placeholder="জন্ম নিবন্ধন নম্বর"
+                                />
+                            </div>
 
 
+                        </div>
 
-                    
-                   
+                        <!-- button -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">যাচাই করুন</button>
+                        </div>
 
-                </span>
-                 
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <!-- tin -->
+                <p> <span class="mx-2">টিআইএন</span> <img src="imgs/icons/tik.svg" style="width: 15px;" ></img></p>
+                <br>
+
+                <!-- documents -->
+                <div class="">
+                    <select id="inputState" class="form-select">
+                        <option selected>ডকুমেন্টস</option>
+                        <option >ডকুমেন্ট</option>
+                        <option>ডকুমেন্টস আপলোড</option>
+                    </select>
+                </div>   
+                <br>
+
+                <!-- settings -->
+                <div class="">
+                    <select id="inputState" class="form-select">
+                        <option selected>সেটিংস</option>
+                        <option >পাসওয়ার্ড পরিবর্তন</option>
+                        <option>বিকল্প মোবাইল নম্বর/ ইমেইল এড্রেস যুক্ত করুন</option>
+                    </select>
+                </div> 
+
             </div>
 
             <!-- 2nd column -->
@@ -371,6 +455,7 @@
                         <br>
                         <div class="row g-4">
                             <div class="row g-3 mt-1">
+
                                 <!-- division -->
                                 <div class="form-group col-md-4 col-lg-4">
                                     <label for="inputState"> বিভাগ </label>
