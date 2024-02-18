@@ -9,6 +9,7 @@
     />
     <title>admin</title>
     <link rel="stylesheet" href="css/admin.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css" />
 
     <!-- font awesome icon cdn -->
@@ -325,11 +326,15 @@
 
             <hr />
             <!-- Page content goes here -->
-            <div class="row">
+            <div class="row container mx-auto">
+
                 <div class="col">
 
+                    <!-- notification -->
+                    <p> <i class="fa-solid fa-regular fa-bell"></i> Notification</p> 
+
                     <!-- search box -->
-                    <div class="container">
+                    <div class="container mb-5 mt-3">
 
                         <div class="row height d-flex justify-content-center align-items-center">
 
@@ -346,7 +351,60 @@
                         </div>
                     </div>
 
+                    <!-- table -->
+                    <section class="back p-4">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">name</th>
+                                    <th scope="col">user id</th>
+                                    <th scope="col">email</th>
+                                    <th>Add</th>
+                                    <th>Delete</th>
+                                    <th>Edit</th>
+                                    <th>Cancel</th>
+                                    <th>Hold</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <!-- 1st row -->
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td> <button type="button" class="btn btn-success btn-sm">Add</button> </td>
+                                    <td> <button type="button" class="btn btn-danger btn-sm">Delete</button> </td>
+                                    <td> <button type="button" class="btn btn-warning btn-sm">Edit</button> </td>
+                                    <td> <button type="button" class="btn btn-success btn-sm">Cancel</button> </td>
+                                    <td> <button type="button" class="btn btn-primary btn-sm ">Hold</button> </td>
+                                </tr>
+
+                                <!-- 2nd row -->
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td> <button type="button" class="btn btn-success btn-sm">Add</button> </td>
+                                    <td> <button type="button" class="btn btn-danger btn-sm">Delete</button> </td>
+                                    <td> <button type="button" class="btn btn-warning btn-sm">Edit</button> </td>
+                                    <td> <button type="button" class="btn btn-success btn-sm">Cancel</button> </td>
+                                    <td> <button type="button" class="btn btn-primary btn-sm ">Hold</button> </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+                    </section>
+                    
+
                 </div>
+
             </div>
 
         </div>
