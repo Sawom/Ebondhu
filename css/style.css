@@ -106,3 +106,12 @@
   cursor: pointer;
   color: #000;
 }
+
+.terms{
+  text-decoration: none;
+  color: black;
+}
+
+.terms:hover{
+  color: #157347;
+}
