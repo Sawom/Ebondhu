@@ -32,23 +32,167 @@
         <ul class="mynav nav nav-pills flex-column mb-auto">
           
             <!-- profile -->
-          <li class="nav-item mb-1">
-            <a href="#">
-              <i class="fa-regular fa-user"></i>
-              Profile
-            </a>
-          </li>
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-regular fa-user"></i>
+                Profile
+                </a>
+            </li>
 
-          <!-- email -->
-          <li class="nav-item mb-1">
-            <a href="#">
-              <i class="fa-solid fa-envelope"></i>
-              ইমেল 
-            </a>
-          </li>
+            <!-- email -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+                ইমেল 
+                </a>
+            </li>
 
-          <!-- settings -->
-          <li class="sidebar-item nav-item mb-1">
+            <!-- agent -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-user-tie"></i>
+                ইমপ্লয়ি 
+                </a>
+            </li>
+
+            <!-- all user -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-users"></i>
+                সকল ইউজার
+                </a>
+            </li>
+
+            <!-- balance -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-coins"></i>
+                ব্যালেন্স
+                </a>
+            </li>
+
+            <!-- total balance -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-coins"></i>
+                মোট ব্যালেন্স
+                </a>
+            </li>
+
+            <!-- whats app support -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+                হোয়াটসঅ্যাপ সাপোর্ট 
+                </a>
+            </li>
+
+            <!-- total project -->
+            <li class="nav-item mb-1">
+                <a href="#">
+                <i class="fa-solid fa-desktop"></i>
+                মোট প্রজেক্ট 
+                </a>
+            </li>
+
+            <!-- agent -->
+            <li class="sidebar-item nav-item mb-1">
+                <a
+                href="#"
+                class="sidebar-link collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#settings2"
+                aria-expanded="false"
+                aria-controls="settings2"
+                >
+                <i class="fa-solid fa-person pe-2"></i>
+                <label for="inputState">এজেন্ট </label>
+                </a>
+
+                <!-- agent options -->
+                <ul
+                id="settings2"
+                class="sidebar-dropdown list-unstyled collapse"
+                data-bs-parent="#sidebar"
+                >
+                    <!-- 1 agent list -->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-person  pe-2"></i>
+                        <span class="topic"> এজেন্ট তালিকা </span>
+                        </a>
+                    </li>
+
+                    <!-- 2 pending agent -->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-person  pe-2"></i>
+                        <span class="topic"> পেন্ডিং এজেন্ট </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <!-- order -->
+            <li class="sidebar-item nav-item mb-1">
+                <a
+                href="#"
+                class="sidebar-link collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#settings1"
+                aria-expanded="false"
+                aria-controls="settings1"
+                >
+                <i class="fa-solid fa-file pe-2"></i>
+                <label for="inputState">অর্ডার </label>
+                </a>
+
+                <!-- orders options -->
+                <ul
+                id="settings1"
+                class="sidebar-dropdown list-unstyled collapse"
+                data-bs-parent="#sidebar"
+                >
+                    <!-- 1 total order-->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file pe-2"></i>
+                        <span class="topic"> মোট অর্ডার </span>
+                        </a>
+                    </li>
+
+                    <!-- 2 cancel order -->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file pe-2"></i>
+                        <span class="topic">ক্যান্সেল অর্ডার </span>
+                        </a>
+                    </li>
+
+                    <!-- 3 pending order -->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file pe-2"></i>
+                        <span class="topic"> পেন্ডিং অর্ডার </span>
+                        </a>
+                    </li>
+
+                    <!-- 4 new order -->
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-file pe-2"></i>
+                        <span class="topic"> নতুন অর্ডার </span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <!-- settings -->
+            <li class="sidebar-item nav-item mb-1">
             <a
               href="#"
               class="sidebar-link collapsed"
@@ -58,7 +202,7 @@
               aria-controls="settings"
             >
               <i class="fas fa-cog pe-2"></i>
-              <label for="inputState">Settings </label>
+              <label for="inputState">সেটিংস </label>
             </a>
 
             <!-- settings options -->
@@ -133,7 +277,8 @@
             </ul>
 
 
-          </li>
+            </li>
+
         </ul>
       </div>
       <!-- sidebar end -->
