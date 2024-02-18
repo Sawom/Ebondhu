@@ -137,25 +137,84 @@
     </section>
     <!-- header end -->
 
-    <!-- terms -->
+    <!-- job form -->
     <section class="container back mx-auto p-4" >
-        <h3 class="text-success text-center" > Our Terms & Conditions</h3>
+        <h3 class="text-success text-center" > জব আবেদন ফর্ম </h3>
         <br>
-        <ul class="list-unstyled">
-        
-            <li>
-                <ul style="font-size: 18px;">
-                    <li> Please review the terms and conditions before using this service. </li>
-                    <li> Brand name/company name should be mentioned in every SMS body. </li>
-                    <li> All the Promotional/Notification/Marketing SMS are to be composed in Bengali with the prior approval from BTRC as per the policy of BTRC. </li>
-                    <li>Please run Promotional campaigns within 6:00 AM to 11:59 PM as per the policy of BTRC.</li>
-                    <li>BULK SMS blast should not be used for any international OTP activation purpose; example: Google, Yahoo, Facebook, Whatsapp, Viber etc.</li>
-                    <li>Avoid sending Bangla messages in English letters.</li>
-                    <li>Avoid sending aggressive, political, treasonous, abuse, threats, anti-national activities or immoral language SMS.</li>
-                </ul>
-            </li>
-        
-        </ul>
+        <div class="container mx-auto back p-4">
+            <form>
+                <div class="row g-4">
+                    <!-- name -->
+                    <div class="col-md-6 col-lg-6">
+                        <label for="inputEmail4">NID no</label>
+                        <input
+                        type="text"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="NID no" required
+                        />
+                    </div>
+
+                    <!-- job type -->
+                    <div class="form-group col-md-6 col-lg-6">
+                        <label for="inputState">কোন জবের জন্য আবেদন করবেন</label>
+                        <select id="inputState" class="form-select" required>
+                            <option selected>নির্বাচন করুন</option>
+                            <option>ওয়েব ডেভেলপমেন্ট </option>
+                            <option >ui/ux ডিজাইন</option>
+                            <option >ব্যবসায়িক কনসালটেন্ট </option>
+                        </select>
+                    </div>
+
+                    <!-- nid picture-->
+                    <div class="col-md-6 col-lg-6">
+                        <label for="inputEmail4">NID picture</label>
+                        <input type="file" class="form-control" id="" placeholder="nid" required />
+                    </div>
+
+                    <!-- cv -->
+                    <div class="col-md-6 col-lg-6">
+                        <label for="inputEmail4">CV</label>
+                        <input type="file" class="form-control" id="" placeholder="nid" required />
+                    </div>
+
+                </div>
+
+
+                <!-- confirm button -->
+                <button
+                type="button"
+                class="btn btn-success mt-3"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                >
+                সাবমিট করুন
+                </button>
+                
+                <!-- Modal -->
+                <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+                >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-body">
+                        আপনি সফলভাবে সাবমিট করেছেন|
+                        <br><br>
+                        <img src="imgs/tik.gif" class="w-50 position-relative top-0 start-50 translate-middle-x" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+            </form>
+        </div>
 
     </section>
 
