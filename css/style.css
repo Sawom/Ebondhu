@@ -115,3 +115,45 @@
 .terms:hover{
   color: #157347;
 }
+
+
+/* slider image*/
+
+.wrapper{
+    margin: auto;
+    
+}
+
+.slider{
+  overflow-x:scroll;     
+  white-space: nowrap;
+}
+
+.slider img{
+  height: auto;
+}
+
+.slider img:hover{
+  transform: scale(1.1);
+  background-color: rgb(76, 155, 187);
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 10px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
