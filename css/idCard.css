@@ -14,7 +14,7 @@
     width: 2.275in;
     padding: 1.3rem 0 1.3rem 0;
     box-shadow: 0 0 5px #b4b4b4;
-    background-image: url('bgecard.jpg');
+    background-image: url("imgs/bgcard.jpg");
     background-repeat: no-repeat;
     background-size: 218.4px 324px;
     border-radius: 20px;
@@ -23,11 +23,10 @@
 .companyname{
     position: absolute;
     font-weight: 500;
-    text-transform: uppercase;
     font-size: 1.09rem;
     margin-top: .5rem;
     top: 4.3%;
-    left: 3%;
+    left: 4%;
     color: oldlace;
 }
 
@@ -40,7 +39,7 @@
 
 .profile-img{
     position: absolute;
-    top: 40%;
+    top: 27%;
     left: 28%;
     width: 96px;
     height: 96px;
@@ -50,22 +49,19 @@
 
 .profile-name{
     position: absolute;
-    top: 70%;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 1.6rem;
+    top: 55%;
+    font-weight: 500;
+    font-size: 1rem;
     margin-top: .5rem;
     color: darkblue;
 }
 
 .profile-username{
     position: absolute;
-    top: 78%;
-    font-weight: 300;
-    text-transform: lowercase;
+    top: 61%;
+    font-weight: 400;
     font-size: 1rem;
     margin-top: .5rem;
-    text-align: center;
     color: navy;
 }
 
@@ -74,13 +70,13 @@
     align-items: center;
     top: 20%;
     left: 30%;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     box-shadow: 0 0 100px #b4b4b4;
 }
 
 .dt{
-    top: 50%;
+    top: 40%;
     position: absolute;
     font-weight: 400;
     font-size: 1.0rem;
@@ -90,7 +86,7 @@
 }
 
 .dt1{
-    top: 60%;
+    top: 47%;
     position: absolute;
     font-weight: 400;
     font-size: 1.0rem;
@@ -100,7 +96,7 @@
 }
 
 .dt2{
-    top: 69%;
+    top: 54%;
     position: absolute;
     font-weight: 400;
     font-size: 1.0rem;
