@@ -1,115 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ready project</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-</head>
-<body class="bodyBackground" >
+  </head>
+  <body class="bodyBackground">
     <!-- header section -->
-    <section class="back mb-5" >
+    <section class="back mb-5">
       <!-- header 1 -->
       <nav class="navbar container mx-auto flex">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="imgs/logo.png" class="img-fluid" style="width: 100px" alt="" />
+            <img
+              src="imgs/logo.png"
+              class="img-fluid"
+              style="width: 100px"
+              alt=""
+            />
           </a>
 
           <!-- language button -->
-          <section class="d-flex ">
-
+          <section class="d-flex">
             <p>বাংলা</p>
             <div class="form-check form-switch mx-1">
-                
-                <input class="form-check-input bg-success" type="checkbox" id="flexSwitchCheckChecked" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
-                
+              <input
+                class="form-check-input bg-success"
+                type="checkbox"
+                id="flexSwitchCheckChecked"
+                checked
+              />
+              <label
+                class="form-check-label"
+                for="flexSwitchCheckChecked"
+              ></label>
             </div>
-            <p> English</p>
-            
+            <p>English</p>
           </section>
-          
+
           <!-- login reg button -->
           <div class="">
+            <button
+              type="button"
+              class="btn btn-outline-success btn-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Login
+            </button>
 
-              <button
-                type="button"
-                class="btn btn-outline-success btn-sm"
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              > Login </button>
-
-              <a href="register.html"
-                ><button type="button" class="btn btn-success btn-sm">
-                  Register
-                </button></a>
-
+            <a href="register.html"
+              ><button type="button" class="btn btn-success btn-sm">
+                Register
+              </button></a
+            >
           </div>
-
         </div>
 
         <!-- login modal -->
         <div
-            class="modal fade"
-            id="staticBackdrop"
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabindex="-1"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
+          class="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                  Login here
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
 
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                      Login here
-                    </h1>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-
-                  <div class="modal-body">
-                    <div class="d-grid gap-2">
-                      <button
-                        type="button"
-                        class="btn btn-outline-success rounded-pill"
-                      >
-                        Login
-                      </button>
-                      <p class="center-div">or</p>
-                      <button
-                        type="button"
-                        class="btn btn-outline-success rounded-pill"
-                      >
-                        Login
-                      </button>
-                      <p class="center-div">or</p>
-                      <button
-                        type="button"
-                        class="btn btn-outline-success rounded-pill"
-                      >
-                        Login
-                      </button>
-                    </div>
-                  </div>
+              <div class="modal-body">
+                <div class="d-grid gap-2">
+                  <button
+                    type="button"
+                    class="btn btn-outline-success rounded-pill"
+                  >
+                    Login
+                  </button>
+                  <p class="center-div">or</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-success rounded-pill"
+                  >
+                    Login
+                  </button>
+                  <p class="center-div">or</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-success rounded-pill"
+                  >
+                    Login
+                  </button>
                 </div>
               </div>
+            </div>
+          </div>
         </div>
-
-
       </nav>
 
       <!-- header 2-->
-      <nav class=" navbar navbar-expand-lg container mx-auto">
+      <nav class="navbar navbar-expand-lg container mx-auto">
         <div class="container-fluid">
-          
           <button
             class="navbar-toggler"
             type="button"
@@ -122,146 +127,135 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            
             <div class="navbar-nav mx-auto justify-content-md-center">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                > হোম </a>
-              <a class="nav-link active" href="#"> আমাদের সার্ভিস সমূহ </a>
-              <a class="nav-link active" href="#"> আমাদের সম্পর্কে </a>
+              <a class="nav-link active" aria-current="page" href="index.html">
+                হোম
+              </a>
+              <a class="nav-link active" href="service.html">
+                আমাদের সার্ভিস সমূহ
+              </a>
+              <a class="nav-link active" href="about.html"> আমাদের সম্পর্কে </a>
 
               <!-- web type -->
-              <div class="form-group col-6 ">
-                  
-                    <select id="inputState" class="form-select">
-                      <option selected> কি রকম ওয়েবসাইট </option>
-                      <option> সবগুলো সিলেক্ট করুন </option>
-                      <option >স্কুল ম্যানেজমেন্ট </option>
-                      <option >হাসপাতাল ম্যানেজমেন্ট </option>
-                      <option >কুরিয়ার </option>
-                      <option >ই-টিকেট </option>
-                    </select>
-                    
+              <div class="form-group col-6">
+                <select id="inputState" class="form-select">
+                  <option selected>কি রকম ওয়েবসাইট</option>
+                  <option>সবগুলো সিলেক্ট করুন</option>
+                  <option>স্কুল ম্যানেজমেন্ট</option>
+                  <option>হাসপাতাল ম্যানেজমেন্ট</option>
+                  <option>কুরিয়ার</option>
+                  <option>ই-টিকেট</option>
+                </select>
               </div>
-
             </div>
-
           </div>
         </div>
       </nav>
-
     </section>
     <!-- header end -->
 
     <!-- project -->
-    <section class="container back mx-auto p-4" >
-        <h3 class="text-success text-center" > ডেলিভারি প্রজেক্ট </h3>
-        <br>
+    <section class="container back mx-auto p-4">
+      <h3 class="text-success text-center">ডেলিভারি প্রজেক্ট</h3>
+      <br />
 
-        <!-- projects demo cards -->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- projects demo cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <!-- imgs -->
+            <div class="overflow-scroll" style="height: 250px">
+              <img src="imgs/project/p1.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p2.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p3.png" class="card-img-top" alt="..." />
+            </div>
 
-          <!-- 1 -->
-          <div class="col">
-            <div class="card h-100">
-              <!-- imgs -->
-              <div class="overflow-scroll" style="height: 250px;">
-                <img src="imgs/project/p1.png" class="card-img-top " alt="...">
-                <img src="imgs/project/p2.png" class="card-img-top" alt="...">
-                <img src="imgs/project/p3.png" class="card-img-top" alt="...">
-              </div>
-              
-              <div class="card-body">
-                <h5 class="card-title">xyz.net</h5>
-                <p class="card-text">
-                  যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট 
-                  <br>
-                  <a href="" class="terms"> <b>Live link</b> </a> 
-                  <br>
-                  <b>মূল্য:</b>
-                </p>
-              </div>
+            <div class="card-body">
+              <h5 class="card-title">xyz.net</h5>
+              <p class="card-text">
+                যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
+                <br />
+                <a href="" class="terms"> <b>Live link</b> </a>
+                <br />
+                <b>মূল্য:</b>
+              </p>
             </div>
           </div>
-
-          <!-- 2 -->
-          <div class="col">
-            <div class="card h-100">
-              <!-- imgs -->
-              <div class="overflow-scroll" style="height: 250px;">
-                <img src="imgs/project/p1.png" class="card-img-top " alt="...">
-                <img src="imgs/project/p2.png" class="card-img-top" alt="...">
-                <img src="imgs/project/p3.png" class="card-img-top" alt="...">
-              </div>
-              
-              <div class="card-body">
-                <h5 class="card-title">xyz.net</h5>
-                <p class="card-text">
-                  যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট 
-                  <br>
-                  <a href="" class="terms"> <b>Live link</b> </a> 
-                  <br>
-                  <b>মূল্য:</b>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- 3 -->
-          <div class="col">
-            <div class="card h-100">
-              <!-- imgs -->
-              <div class="overflow-scroll" style="height: 250px;">
-                <img src="imgs/project/p1.png" class="card-img-top " alt="...">
-                <img src="imgs/project/p2.png" class="card-img-top" alt="...">
-                <img src="imgs/project/p3.png" class="card-img-top" alt="...">
-              </div>
-              
-              <div class="card-body">
-                <h5 class="card-title">xyz.net</h5>
-                <p class="card-text">
-                  যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট 
-                  <br>
-                  <a href="" class="terms"> <b>Live link</b> </a> 
-                  <br>
-                  <b>মূল্য:</b>
-                </p>
-              </div>
-            </div>
-          </div>
-
         </div>
-        
 
+        <!-- 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <!-- imgs -->
+            <div class="overflow-scroll" style="height: 250px">
+              <img src="imgs/project/p1.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p2.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p3.png" class="card-img-top" alt="..." />
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">xyz.net</h5>
+              <p class="card-text">
+                যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
+                <br />
+                <a href="" class="terms"> <b>Live link</b> </a>
+                <br />
+                <b>মূল্য:</b>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <!-- imgs -->
+            <div class="overflow-scroll" style="height: 250px">
+              <img src="imgs/project/p1.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p2.png" class="card-img-top" alt="..." />
+              <img src="imgs/project/p3.png" class="card-img-top" alt="..." />
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">xyz.net</h5>
+              <p class="card-text">
+                যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
+                <br />
+                <a href="" class="terms"> <b>Live link</b> </a>
+                <br />
+                <b>মূল্য:</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-    <br>
+    <br />
     <!-- footer -->
     <section class="back p-4 mt-5">
-
-        <div class="container mx-auto">
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2">
-            <!-- 1 -->
-            <div class="col">
-                <p>পরিকল্পনা ও বাস্তবায়নে</p>
-                <img src="imgs/logo.png" style="width: 50px;" alt="">
-            </div>
-            <!-- 2 -->
-            <div class="col">
-                <p>কপিরাইট © ২০২৪ সর্বস্বত্ব সংরক্ষিত</p>
-            </div>
-            <!-- 3 -->
-            <div class="col">
-                <p>কারিগরি সহযোগিতায়</p>
-                <img src="imgs/logo.png" style="width: 50px;" alt="">
-            </div>
-
-            </div>
+      <div class="container mx-auto">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-2">
+          <!-- 1 -->
+          <div class="col">
+            <p>পরিকল্পনা ও বাস্তবায়নে</p>
+            <img src="imgs/logo.png" style="width: 50px" alt="" />
+          </div>
+          <!-- 2 -->
+          <div class="col">
+            <p>কপিরাইট © ২০২৪ সর্বস্বত্ব সংরক্ষিত</p>
+          </div>
+          <!-- 3 -->
+          <div class="col">
+            <p>কারিগরি সহযোগিতায়</p>
+            <img src="imgs/logo.png" style="width: 50px" alt="" />
+          </div>
         </div>
-
+      </div>
     </section>
     <!-- footer end -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
