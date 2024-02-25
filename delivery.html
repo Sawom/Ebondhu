@@ -161,7 +161,8 @@
 
       <!-- projects demo cards -->
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <!-- 1 -->
+
+        <!-- card 1 -->
         <div class="col">
           <div class="card h-100">
             <!-- imgs -->
@@ -177,14 +178,94 @@
                 যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
                 <br />
                 <a href="" class="terms"> <b>Live link</b> </a>
-                <br />
-                <b>মূল্য:</b>
+                <br /> <br>
+                <span>
+                  <b>মূল্য: </b>
+
+                  <!-- modal trigger button -->
+                  <button type="button" class="btn btn-success btn-sm " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Request
+                  </button>
+                </span> 
+
+                <!-- modal body -->
+                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Please fill up this form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <!-- modal form -->
+                      <div class="modal-body">
+                        
+                        <div class="container mx-auto back p-4">
+                            <form>
+                                <div class="row g-4">
+
+                                    <!-- phone -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Phone no</label>
+                                        <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Phone no" required
+                                        />
+                                    </div>
+
+                                    <!-- email -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Email </label>
+                                        <input
+                                        type="email"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Email" required
+                                        />
+                                    </div>
+
+                                    <!-- job type -->
+                                    <div class="form-group col-md-6 col-lg-6">
+                                        <label for="inputState">Meeting time</label>
+                                        <select id="inputState" class="form-select" required>
+                                            <option selected>10 am</option>
+                                            <option>12 pm </option>
+                                            <option >2 pm</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- short description -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Short description</label>
+                                        <textarea class="form-control" placeholder="Write your issue" id="floatingTextarea"></textarea>
+                                    </div>
+
+                                
+
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </p>
             </div>
           </div>
         </div>
 
-        <!-- 2 -->
+        <!-- card 2 -->
         <div class="col">
           <div class="card h-100">
             <!-- imgs -->
@@ -200,14 +281,94 @@
                 যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
                 <br />
                 <a href="" class="terms"> <b>Live link</b> </a>
-                <br />
-                <b>মূল্য:</b>
+                <br /> <br>
+                <span>
+                  <b>মূল্য: </b>
+
+                  <!-- modal trigger button -->
+                  <button type="button" class="btn btn-success btn-sm " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Request
+                  </button>
+                </span> 
+
+                <!-- modal body -->
+                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Please fill up this form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <!-- modal form -->
+                      <div class="modal-body">
+                        
+                        <div class="container mx-auto back p-4">
+                            <form>
+                                <div class="row g-4">
+
+                                    <!-- phone -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Phone no</label>
+                                        <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Phone no" required
+                                        />
+                                    </div>
+
+                                    <!-- email -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Email </label>
+                                        <input
+                                        type="email"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Email" required
+                                        />
+                                    </div>
+
+                                    <!-- job type -->
+                                    <div class="form-group col-md-6 col-lg-6">
+                                        <label for="inputState">Meeting time</label>
+                                        <select id="inputState" class="form-select" required>
+                                            <option selected>10 am</option>
+                                            <option>12 pm </option>
+                                            <option >2 pm</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- short description -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Short description</label>
+                                        <textarea class="form-control" placeholder="Write your issue" id="floatingTextarea"></textarea>
+                                    </div>
+
+                                
+
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </p>
             </div>
           </div>
         </div>
 
-        <!-- 3 -->
+        <!-- card 3 -->
         <div class="col">
           <div class="card h-100">
             <!-- imgs -->
@@ -223,16 +384,98 @@
                 যে রকম ওয়েবসাইট: স্কুল ম্যানেজমেন্ট
                 <br />
                 <a href="" class="terms"> <b>Live link</b> </a>
-                <br />
-                <b>মূল্য:</b>
+                <br /> <br>
+                <span>
+                  <b>মূল্য: </b>
+
+                  <!-- modal trigger button -->
+                  <button type="button" class="btn btn-success btn-sm " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Request
+                  </button>
+                </span> 
+
+                <!-- modal body -->
+                <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Please fill up this form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+
+                      <!-- modal form -->
+                      <div class="modal-body">
+                        
+                        <div class="container mx-auto back p-4">
+                            <form>
+                                <div class="row g-4">
+
+                                    <!-- phone -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Phone no</label>
+                                        <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Phone no" required
+                                        />
+                                    </div>
+
+                                    <!-- email -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Email </label>
+                                        <input
+                                        type="email"
+                                        class="form-control"
+                                        id="inputEmail4"
+                                        placeholder="Email" required
+                                        />
+                                    </div>
+
+                                    <!-- job type -->
+                                    <div class="form-group col-md-6 col-lg-6">
+                                        <label for="inputState">Meeting time</label>
+                                        <select id="inputState" class="form-select" required>
+                                            <option selected>10 am</option>
+                                            <option>12 pm </option>
+                                            <option >2 pm</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- short description -->
+                                    <div class="col-md-6 col-lg-6">
+                                        <label for="inputEmail4">Short description</label>
+                                        <textarea class="form-control" placeholder="Write your issue" id="floatingTextarea"></textarea>
+                                    </div>
+
+                                
+
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </p>
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
     <br />
+    
     <!-- footer -->
     <section class="back p-4 mt-5">
       <div class="container mx-auto">
